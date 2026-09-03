@@ -31,7 +31,7 @@
   },
   {
     "Lien": "https://unsplash.com/",
-    "Nom": "Com",
+    "Nom": "unsplash",
     "Categorie": "inspiration",
     "Descripton": ""
   },
@@ -193,13 +193,13 @@
   },
   {
     "Lien": "https://brandingstyleguides.com/",
-    "Nom": "",
+    "Nom": "branding style guides",
     "Categorie": "graphic_chart",
     "Descripton": ""
   },
   {
     "Lien": "https://chartes-graphiques.com/",
-    "Nom": "",
+    "Nom": "chartes-graphique.com",
     "Categorie": "graphic_chart",
     "Descripton": ""
   },
@@ -235,31 +235,31 @@
   },
   {
     "Lien": "https://tomltpf.com/accueil/",
-    "Nom": "",
+    "Nom": "Tom TPF",
     "Categorie": "photographer_website",
     "Descripton": ""
   },
   {
     "Lien": "https://barbaraprobst.net/",
-    "Nom": "",
+    "Nom": "Barbara Probst",
     "Categorie": "photographer_website",
     "Descripton": ""
   },
   {
     "Lien": "https://www.perrotin.com/fr/artists/Sophie_Calle/1#news",
-    "Nom": "Perrot in",
+    "Nom": "Sophie Calle",
     "Categorie": "photographer_website",
     "Descripton": ""
   },
   {
     "Lien": "https://www.mep-fr.org/les-collections/robert-frank/",
-    "Nom": "Mep-Fr",
+    "Nom": "Robert Frank",
     "Categorie": "photographer_website",
     "Descripton": ""
   },
   {
     "Lien": "https://www.adrien-favre.com",
-    "Nom": "Adrien -favre",
+    "Nom": "Adrien Favre",
     "Categorie": "photographer_website",
     "Descripton": ""
   },

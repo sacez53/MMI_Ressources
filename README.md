@@ -1,8 +1,6 @@
-
 # MMI Ressources
 
 Ce site web est un site web imaginer dans le but de regrouper des liens sur différents outils, ressources, logiciel, ou autres a destination des étudiant de MMI.
-
 
 ## Roadmap
 
@@ -12,11 +10,10 @@ Ce site web est un site web imaginer dans le but de regrouper des liens sur diff
 - Crée une base de donnée de liens avec certains critères dans "data.json" (ajouter les critères a la dans la sections "Features").
 - Crée une version non statique du site (mettre en place le fait que les donnée soit issues directement du fichier "data.json").
 
-
 ## Features
 
 - Tri des liens par catégories
-  -  inspiration
+  - inspiration
   - color_palette
   - accessibility
   - icon
@@ -37,13 +34,11 @@ Ce site web est un site web imaginer dans le but de regrouper des liens sur diff
 
 **Server:** (à définir)
 
-
 ## Badges
 
 ![html5](https://www.readmecodegen.com/api/social-icon?name=html5&size=40)
 ![css3](https://www.readmecodegen.com/api/social-icon?name=css3&size=40)
 ![javascript](https://www.readmecodegen.com/api/social-icon?name=javascript&size=40)
-
 
 ## Authors
 
