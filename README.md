@@ -16,6 +16,18 @@ Ce site web est un site web imaginer dans le but de regrouper des liens sur diff
 ## Features
 
 - Tri des liens par catégories
+  -  inspiration
+  - color_palette
+  - accessibility
+  - icon
+  - typo
+  - image_bank
+  - mockup
+  - tendencies
+  - tuto_masterclass_workshop
+  - graphic_chart
+  - design_history
+  - photographer_website
 - Mobile et Desktop version
 - Autres features (prochainement)
 
