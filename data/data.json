@@ -1,3 +1,272 @@
-{
-
-}
+[
+  {
+    "Lien": "http://500px.com",
+    "Nom": "500px",
+    "Categorie": "inspiration",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.pinterest.fr/",
+    "Nom": "Pinterest",
+    "Categorie": "inspiration",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.pexels.com/fr-fr/",
+    "Nom": "Pexels",
+    "Categorie": "inspiration",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.behance.net/search/projects?tracking_source=nav20",
+    "Nom": "Behance",
+    "Categorie": "inspiration",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://dribbble.com/shots/popular",
+    "Nom": "Dribbble",
+    "Categorie": "inspiration",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://unsplash.com/",
+    "Nom": "Com",
+    "Categorie": "inspiration",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.cosmos.so/",
+    "Nom": "Cosmos",
+    "Categorie": "inspiration",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://color.adobe.com/fr/create/color-wheel",
+    "Nom": "color adobe",
+    "Categorie": "color_palette",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://colorhunt.co/",
+    "Nom": "colorhunt",
+    "Categorie": "color_palette",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://coolors.co/",
+    "Nom": "coolors",
+    "Categorie": "color_palette",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.palettedecouleur.net/palette-category/violet/",
+    "Nom": "palettedecouleur",
+    "Categorie": "color_palette",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.tpgi.com/color-contrast-checker/",
+    "Nom": "Tpgi",
+    "Categorie": "accesibility",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.flaticon.com/",
+    "Nom": "Flaticon",
+    "Categorie": "icon",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://icones8.fr/",
+    "Nom": "icones8",
+    "Categorie": "icon",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.dafont.com/fr/",
+    "Nom": "dafont",
+    "Categorie": "typo",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://fonts.google.com/",
+    "Nom": "Google",
+    "Categorie": "typo",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://fonts.adobe.com/",
+    "Nom": "Adobe",
+    "Categorie": "typo",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.awwwards.com/awwwards/collections/free-fonts/",
+    "Nom": "Awwwards",
+    "Categorie": "typo",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.pixelsurplus.com/freebies/",
+    "Nom": "pixelsurplus www",
+    "Categorie": "typo",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://open-foundry.com/",
+    "Nom": "Open foundry",
+    "Categorie": "typo",
+    "Descripton": ""
+  },
+  {
+    "Lien": "http://www.losttype.com/",
+    "Nom": "Losttype",
+    "Categorie": "typo",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.fontpair.co/",
+    "Nom": "Fontpair",
+    "Categorie": "typo",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.fontsquirrel.com/",
+    "Nom": "Fontsquirrel",
+    "Categorie": "typo",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://resourceboy.com/text-effects/",
+    "Nom": "ressources boy",
+    "Categorie": "typo",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://stock.adobe.com/fr/",
+    "Nom": "adobe stock",
+    "Categorie": "image_bank",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.pexels.com/fr-fr/",
+    "Nom": "Pexels",
+    "Categorie": "image_bank",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://stock.adobe.com/fr/",
+    "Nom": "adobe stock",
+    "Categorie": "mockup",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.mockupworld.co/",
+    "Nom": "Mockupworld",
+    "Categorie": "mockup",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://99designs.fr/blog/tendances/tendances-design-graphique/",
+    "Nom": "Tendances design graphique",
+    "Categorie": "tendencies",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://graphiste.com/blog/tendances-webdesign-2024/",
+    "Nom": "Tendances webdesign 2024",
+    "Categorie": "tendencies",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.adobe.com/max.html",
+    "Nom": "Adobe max",
+    "Categorie": "tuto_masterclass_workshop",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.youtube.com/user/AdobeFrance",
+    "Nom": "Yt Adobe FR",
+    "Categorie": "tuto_masterclass_workshop",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://brandingstyleguides.com/",
+    "Nom": "",
+    "Categorie": "graphic_chart",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://chartes-graphiques.com/",
+    "Nom": "",
+    "Categorie": "graphic_chart",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://barbarajosa.com/12-exemples-charte-graphique/",
+    "Nom": "12 exemples de charte graphique",
+    "Categorie": "graphic_chart",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://combind.ma/blog/guides-de-style",
+    "Nom": "guide de style",
+    "Categorie": "graphic_chart",
+    "Descripton": ""
+  },
+  {
+    "Lien": "http://www.maitrecappelli.fr",
+    "Nom": "Maitre appelli",
+    "Categorie": "design_history",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://sites.google.com/view/sacha-photographe/",
+    "Nom": "Sacha G. Photographe",
+    "Categorie": "photographer_website",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.evanmassonphotographie.fr/",
+    "Nom": "Evanmasson photographie",
+    "Categorie": "photographer_website",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://tomltpf.com/accueil/",
+    "Nom": "",
+    "Categorie": "photographer_website",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://barbaraprobst.net/",
+    "Nom": "",
+    "Categorie": "photographer_website",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.perrotin.com/fr/artists/Sophie_Calle/1#news",
+    "Nom": "Perrot in",
+    "Categorie": "photographer_website",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.mep-fr.org/les-collections/robert-frank/",
+    "Nom": "Mep-Fr",
+    "Categorie": "photographer_website",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.adrien-favre.com",
+    "Nom": "Adrien -favre",
+    "Categorie": "photographer_website",
+    "Descripton": ""
+  },
+  {
+    "Lien": "https://www.vivianmaier.com",
+    "Nom": "Vivian maier",
+    "Categorie": "photographer_website",
+    "Descripton": ""
+  }
+]
