@@ -4,6 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const categoryBar = document.getElementById("category-bar");
 
   if (sidebarToggle && categoryBar) {
+    // Fermer par défaut sur mobile
+    if (window.innerWidth <= 768) {
+      categoryBar.classList.add("closed");
+    }
+
     sidebarToggle.addEventListener("click", () => {
       categoryBar.classList.toggle("closed");
     });
@@ -14,7 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const settingsModal = document.getElementById("settings-modal");
   const closeSettings = document.getElementById("close-settings");
 
-  const toggleDarkMode = document.getElementById("toggle-dark-mode");
   const toggleDescriptions = document.getElementById("toggle-descriptions");
 
   // Ouvrir/Fermer la modale
@@ -36,29 +40,12 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Charger les paramètres enregistrés
-  if (localStorage.getItem("darkMode") === "true") {
-    document.body.classList.add("dark-mode");
-    if (toggleDarkMode) toggleDarkMode.checked = true;
-  }
-
   if (localStorage.getItem("hideDescriptions") === "true") {
     document.body.classList.add("hide-descriptions");
     if (toggleDescriptions) toggleDescriptions.checked = true;
   }
 
   // Écouteurs pour les toggles
-  if (toggleDarkMode) {
-    toggleDarkMode.addEventListener("change", (e) => {
-      if (e.target.checked) {
-        document.body.classList.add("dark-mode");
-        localStorage.setItem("darkMode", "true");
-      } else {
-        document.body.classList.remove("dark-mode");
-        localStorage.setItem("darkMode", "false");
-      }
-    });
-  }
-
   if (toggleDescriptions) {
     toggleDescriptions.addEventListener("change", (e) => {
       if (e.target.checked) {
@@ -123,24 +110,34 @@ function initialiserSite(liens) {
         a.href = lien.Lien;
         a.className = "resource-card";
         a.target = "_blank";
+        a.title = lien.Descripton || "Aucune description fournie.";
 
         // Création de la bulle de Catégorie (<span>)
         const badge = document.createElement("span");
         badge.className = "card-category";
         badge.textContent = lien.Categorie;
 
+        // Conteneur pour le titre et l'icône
+        const headerContainer = document.createElement("div");
+        headerContainer.className = "card-header";
+
         // Création du Titre (<h2>)
         const h2 = document.createElement("h2");
         h2.className = "card-title";
         h2.textContent = lien.Nom;
+        headerContainer.appendChild(h2);
+        
+        // Icône flèche
+        const svgIconStr = `<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor" class="card-arrow-icon"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg>`;
+        headerContainer.insertAdjacentHTML("beforeend", svgIconStr);
 
         // Création de la Description (<p>)
         const p = document.createElement("p");
         p.className = "card-description";
         p.textContent = lien.Descripton || "Aucune description fournie.";
 
-        // On assemble le tout : Titre -> Description -> Badge
-        a.appendChild(h2);
+        // On assemble le tout : Header -> Description -> Badge
+        a.appendChild(headerContainer);
         a.appendChild(p);
         a.appendChild(badge);
 
@@ -163,6 +160,11 @@ function initialiserSite(liens) {
       // Récupère la catégorie cliquée et met à jour l'affichage
       const selectedCategory = button.getAttribute("data-filter");
       afficherCartes(selectedCategory);
+
+      // Sur mobile, ferme automatiquement la barre latérale après sélection
+      if (window.innerWidth <= 768) {
+        document.getElementById("category-bar").classList.add("closed");
+      }
     });
   });
 }
