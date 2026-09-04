@@ -2,6 +2,9 @@
 
 Ce site web est un site web imaginer dans le but de regrouper des liens sur différents outils, ressources, logiciel, ou autres a destination des étudiant de MMI.
 
+## Accès
+Lien : [GITHUB PAGE](https://sacez53.github.io/MMI_Ressources/)
+
 ## Roadmap
 
 - Mettre en place le HTML de base du site.
