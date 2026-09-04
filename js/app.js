@@ -1,4 +1,76 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // Gestion du menu latéral
+  const sidebarToggle = document.getElementById("sidebar-toggle");
+  const categoryBar = document.getElementById("category-bar");
+
+  if (sidebarToggle && categoryBar) {
+    sidebarToggle.addEventListener("click", () => {
+      categoryBar.classList.toggle("closed");
+    });
+  }
+
+  // --- GESTION DES PARAMÈTRES ---
+  const settingsBtn = document.getElementById("settings-btn");
+  const settingsModal = document.getElementById("settings-modal");
+  const closeSettings = document.getElementById("close-settings");
+
+  const toggleDarkMode = document.getElementById("toggle-dark-mode");
+  const toggleDescriptions = document.getElementById("toggle-descriptions");
+
+  // Ouvrir/Fermer la modale
+  if (settingsBtn && settingsModal && closeSettings) {
+    settingsBtn.addEventListener("click", () => {
+      settingsModal.classList.add("show");
+    });
+
+    closeSettings.addEventListener("click", () => {
+      settingsModal.classList.remove("show");
+    });
+
+    // Fermer en cliquant en dehors
+    window.addEventListener("click", (event) => {
+      if (event.target === settingsModal) {
+        settingsModal.classList.remove("show");
+      }
+    });
+  }
+
+  // Charger les paramètres enregistrés
+  if (localStorage.getItem("darkMode") === "true") {
+    document.body.classList.add("dark-mode");
+    if (toggleDarkMode) toggleDarkMode.checked = true;
+  }
+
+  if (localStorage.getItem("hideDescriptions") === "true") {
+    document.body.classList.add("hide-descriptions");
+    if (toggleDescriptions) toggleDescriptions.checked = true;
+  }
+
+  // Écouteurs pour les toggles
+  if (toggleDarkMode) {
+    toggleDarkMode.addEventListener("change", (e) => {
+      if (e.target.checked) {
+        document.body.classList.add("dark-mode");
+        localStorage.setItem("darkMode", "true");
+      } else {
+        document.body.classList.remove("dark-mode");
+        localStorage.setItem("darkMode", "false");
+      }
+    });
+  }
+
+  if (toggleDescriptions) {
+    toggleDescriptions.addEventListener("change", (e) => {
+      if (e.target.checked) {
+        document.body.classList.add("hide-descriptions");
+        localStorage.setItem("hideDescriptions", "true");
+      } else {
+        document.body.classList.remove("hide-descriptions");
+        localStorage.setItem("hideDescriptions", "false");
+      }
+    });
+  }
+
   // 1. On va chercher le fichier liens.json
   fetch("./data/data.json")
     .then((response) => {
@@ -12,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch((error) => {
       console.error(error);
       document.getElementById("resource-grid").innerHTML =
-        "<p style='color:red;'>Erreur : Impossible de charger les liens. (Vérifiez que vous utilisez un serveur local).</p>";
+        "<p style='color:red;'>Erreur : Impossible de charger les liens.</p>";
     });
 });
 
