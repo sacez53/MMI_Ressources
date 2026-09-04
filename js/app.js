@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Gestion du menu latéral
+  const nav = document.getElementById("category-bar");
   const sidebarToggle = document.getElementById("sidebar-toggle");
   const categoryBar = document.getElementById("category-bar");
 
@@ -21,20 +21,47 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const toggleDescriptions = document.getElementById("toggle-descriptions");
 
-  // Ouvrir/Fermer la modale
+  // Ouvrir/Fermer la modale paramètres
   if (settingsBtn && settingsModal && closeSettings) {
     settingsBtn.addEventListener("click", () => {
       settingsModal.classList.add("show");
     });
-
+    
     closeSettings.addEventListener("click", () => {
       settingsModal.classList.remove("show");
     });
 
-    // Fermer en cliquant en dehors
     window.addEventListener("click", (event) => {
       if (event.target === settingsModal) {
         settingsModal.classList.remove("show");
+      }
+    });
+  }
+
+  // --- GESTION DE LA MODALE DE CONFIRMATION ---
+  const confirmModal = document.getElementById("confirm-modal");
+  const closeConfirm = document.getElementById("close-confirm");
+  const btnCancelLink = document.getElementById("btn-cancel-link");
+  const btnConfirmLink = document.getElementById("btn-confirm-link");
+  const confirmSiteName = document.getElementById("confirm-site-name");
+  let currentUrlToOpen = "";
+
+  if (confirmModal && closeConfirm && btnCancelLink && btnConfirmLink) {
+    const hideConfirmModal = () => confirmModal.classList.remove("show");
+
+    closeConfirm.addEventListener("click", hideConfirmModal);
+    btnCancelLink.addEventListener("click", hideConfirmModal);
+    
+    btnConfirmLink.addEventListener("click", () => {
+      if (currentUrlToOpen) {
+        window.open(currentUrlToOpen, "_blank");
+        hideConfirmModal();
+      }
+    });
+
+    window.addEventListener("click", (event) => {
+      if (event.target === confirmModal) {
+        hideConfirmModal();
       }
     });
   }
@@ -111,6 +138,19 @@ function initialiserSite(liens) {
         a.className = "resource-card";
         a.target = "_blank";
         a.title = lien.Descripton || "Aucune description fournie.";
+
+        a.addEventListener("click", (e) => {
+          e.preventDefault();
+          currentUrlToOpen = lien.Lien;
+          const confirmSiteName = document.getElementById("confirm-site-name");
+          if (confirmSiteName) {
+            confirmSiteName.textContent = lien.Nom;
+          }
+          const confirmModal = document.getElementById("confirm-modal");
+          if (confirmModal) {
+            confirmModal.classList.add("show");
+          }
+        });
 
         // Création de la bulle de Catégorie (<span>)
         const badge = document.createElement("span");

@@ -102,6 +102,35 @@ header h1 {
     scrollbar-width: thin;
 }
 
+/* Modale de Confirmation Buttons */
+.btn-cancel, .btn-confirm {
+    flex: 1;
+    padding: 12px;
+    border: var(--b-border);
+    cursor: pointer;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: all 0.2s;
+}
+.btn-cancel {
+    background: var(--b-white);
+    color: var(--b-text);
+}
+.btn-cancel:hover {
+    background: var(--b-yellow);
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0px var(--b-shadow-color);
+}
+.btn-confirm {
+    background: var(--b-blue);
+    color: #ffffff;
+}
+.btn-confirm:hover {
+    background: var(--b-red); /* or a darker blue, but red is very bauhaus */
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0px var(--b-shadow-color);
+}
+
 .category-bar.closed {
     margin-left: -250px;
 }
