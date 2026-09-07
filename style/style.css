@@ -1,10 +1,10 @@
 :root {
-    --b-bg: #F4F4F0;
+    --b-bg: #f4f4f0;
     --b-text: #111111;
     --b-border-color: #111111;
     --b-border: 3px solid var(--b-border-color);
-    --b-red: #D92B30;
-    --b-blue: #2558A4;
+    --b-red: #d92b30;
+    --b-blue: #2558a4;
     --b-yellow: #f2801c;
     --b-white: #ffffff;
     --b-shadow-color: #111111;
@@ -103,7 +103,8 @@ header h1 {
 }
 
 /* Modale de Confirmation Buttons */
-.btn-cancel, .btn-confirm {
+.btn-cancel,
+.btn-confirm {
     flex: 1;
     padding: 12px;
     border: var(--b-border);
@@ -211,7 +212,7 @@ main {
     font-weight: 800;
     text-transform: uppercase;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -221,7 +222,7 @@ main {
     line-height: 1.4;
     font-weight: 500;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -239,10 +240,6 @@ main {
     align-self: flex-start;
     margin-top: auto;
     margin-bottom: 0;
-}
-
-.card-buttton {
-
 }
 
 footer {
@@ -265,7 +262,7 @@ footer {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     align-items: center;
     justify-content: center;
 }
@@ -328,7 +325,7 @@ footer {
     bottom: 0;
     background-color: var(--b-white);
     border: var(--b-border);
-    transition: .4s;
+    transition: 0.4s;
 }
 .slider:before {
     position: absolute;
@@ -338,7 +335,7 @@ footer {
     left: 2px;
     bottom: 2px;
     background-color: var(--b-text);
-    transition: .4s;
+    transition: 0.4s;
 }
 input:checked + .slider {
     background-color: var(--b-blue);
@@ -393,7 +390,7 @@ body.hide-descriptions .card-description {
     .header-left h1 {
         font-size: 1.5em;
     }
-    
+
     .settings-modal-content {
         width: 90%;
         padding: 20px;
