@@ -224,20 +224,20 @@
   {
     "Lien": "https://sites.google.com/view/sacha-photographe/",
     "Nom": "Sacha G. Photographe",
-    "Categorie": "Photographe",
+    "Categorie": "Portfolio_etudiant",
     "Descripton": "Portfolio photographique de Sacha G."
   },
   {
     "Lien": "https://www.evanmassonphotographie.fr/",
     "Nom": "Evanmasson photographie",
     "Categorie": "Photographe",
-    "Descripton": "Portfolio d'Evan Masson."
+    "Descripton": "Photographie de nature."
   },
   {
     "Lien": "https://tomltpf.com/accueil/",
     "Nom": "Tom TPF",
     "Categorie": "Photographe",
-    "Descripton": "Travaux et portfolio de photographie."
+    "Descripton": "Photographie"
   },
   {
     "Lien": "https://barbaraprobst.net/",
@@ -261,7 +261,7 @@
     "Lien": "https://www.adrien-favre.com",
     "Nom": "Adrien Favre",
     "Categorie": "Photographe",
-    "Descripton": "Portfolio de photographie de nature."
+    "Descripton": "Photographie de nature."
   },
   {
     "Lien": "https://www.vivianmaier.com",
@@ -269,4 +269,18 @@
     "Categorie": "Photographe",
     "Descripton": "Archives officielles de la photographe de rue."
   }
+  {
+    "Lien": "https://mandinmaxime.vercel.app/",
+    "Nom": "Maxime Mandin",
+    "Categorie": "Portfolio_etudiant",
+    "Descripton": "Portfolio MMI"
+  }
+  {
+    "Lien": "https://eliotchataigner.fr/",
+    "Nom": "Eliot Chataigner",
+    "Categorie": "Portfolio_etudiant",
+    "Descripton": "Portfolio MMI"
+  }
+
+
 ]
