@@ -28,6 +28,7 @@ Lien : [GITHUB PAGE](https://sacez53.github.io/MMI_Ressources/)
   - graphic_chart
   - design_history
   - photographer_website
+  - portfolio_etudiant
 - Mobile et Desktop version
 - Autres features (prochainement)
 
