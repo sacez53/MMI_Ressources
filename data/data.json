@@ -268,19 +268,17 @@
     "Nom": "Vivian maier",
     "Categorie": "Photographe",
     "Descripton": "Archives officielles de la photographe de rue."
-  }
+  },
   {
     "Lien": "https://mandinmaxime.vercel.app/",
     "Nom": "Maxime Mandin",
     "Categorie": "Portfolio_etudiant",
     "Descripton": "Portfolio MMI"
-  }
+  },
   {
     "Lien": "https://eliotchataigner.fr/",
     "Nom": "Eliot Chataigner",
     "Categorie": "Portfolio_etudiant",
     "Descripton": "Portfolio MMI"
   }
-
-
 ]
