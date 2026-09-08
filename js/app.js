@@ -107,10 +107,16 @@ function initialiserSite(liens) {
   const nav = document.getElementById("category-bar");
 
   // --- CRÉATION DES CATÉGORIES DYNAMIQUES ---
-  // On extrait toutes les catégories existantes et on supprime les doublons
+  // On extrait toutes les catégories existantes, on supprime les doublons, et on les trie par ordre alphabétique
   const categoriesExistantes = [
     ...new Set(liens.map((lien) => lien.Categorie)),
-  ];
+  ].sort((a, b) => a.localeCompare(b, "fr"));
+
+  // Mélanger les liens aléatoirement (algorithme de Fisher-Yates) après l'extraction des catégories
+  for (let i = liens.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [liens[i], liens[j]] = [liens[j], liens[i]];
+  }
 
   // On ajoute toujours le bouton "Tous" en premier
   const toutesCategories = ["tous", ...categoriesExistantes];
