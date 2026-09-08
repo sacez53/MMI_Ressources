@@ -32,18 +32,52 @@ Lien : [GITHUB PAGE](https://sacez53.github.io/MMI_Ressources/)
 - Mobile et Desktop version
 - Autres features (prochainement)
 
+## File Tree
+```
+📁 MMI_Ressources/
+    ├── 📁 .github/
+    │   └── 📁 workflows/
+    │       └── 📄 static.yml
+    ├── 📁 data/
+    │   └── 🔢 data.json
+    ├── 📁 js/
+    │   └── 🟨 app.js
+    ├── 📁 src/
+    │   ├── 📁 bases_de_données/
+    │   │   ├── 📄 MMI_Ressources.csv
+    │   │   └── 📄 MMI_Ressources.xlsx
+    │   └── 📁 social_prewiew_img/
+    │       └── 🖼️ social_prewiew_img_08092026.jpg
+    ├── 📁 style/
+    │   └── 🎨 style.css
+    ├── 📁 vector/
+    │   ├── 🖼️ account_box_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
+    │   ├── 🖼️ arrow_outward_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
+    │   ├── 🖼️ home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
+    │   ├── 🖼️ info_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
+    │   └── 🖼️ settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg
+    ├── 📄 about.html
+    ├── 📄 index.html
+    └── 📄 README.md
+
+```
+
 ## Tech
-
-**Client:** HTML, Native CSS,
-
-**Server:** (à définir)
-
-## Badges
 
 ![html5](https://www.readmecodegen.com/api/social-icon?name=html5&size=40)
 ![css3](https://www.readmecodegen.com/api/social-icon?name=css3&size=40)
 ![javascript](https://www.readmecodegen.com/api/social-icon?name=javascript&size=40)
 
+
+## Badges
+
+![License: MIT License](https://img.shields.io/badge/License-mit-blue.svg)
+
+
+
 ## Authors
 
 - [@sacez53](https://github.com/sacez53/)
+
+
+Made with ❤️ by Sacha G.
