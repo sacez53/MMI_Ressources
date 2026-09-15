@@ -3,282 +3,496 @@
     "Lien": "http://500px.com",
     "Nom": "500px",
     "Categorie": "Inspiration",
-    "Descripton": "Réseau social pour partager et découvrir des photographies."
+    "Descripton": "Réseau social pour partager et découvrir des photographies.",
+    "Tags": [
+      "Design",
+      "Ressource",
+      "Nouveau"
+    ]
   },
   {
     "Lien": "https://www.pinterest.fr/",
     "Nom": "Pinterest",
     "Categorie": "Inspiration",
-    "Descripton": "Moteur de recherche visuel d'idées créatives."
+    "Descripton": "Moteur de recherche visuel d'idées créatives.",
+    "Tags": [
+      "Tendance",
+      "Premium"
+    ]
   },
   {
     "Lien": "https://www.pexels.com/fr-fr/",
     "Nom": "Pexels",
     "Categorie": "Inspiration",
-    "Descripton": "Banque de photos et vidéos gratuites et libres de droits."
+    "Descripton": "Banque de photos et vidéos gratuites et libres de droits.",
+    "Tags": [
+      "Design",
+      "Outil",
+      "Ressource"
+    ]
   },
   {
     "Lien": "https://www.behance.net/search/projects?tracking_source=nav20",
     "Nom": "Behance",
     "Categorie": "Inspiration",
-    "Descripton": "Plateforme Adobe pour portfolios et projets créatifs."
+    "Descripton": "Plateforme Adobe pour portfolios et projets créatifs.",
+    "Tags": [
+      "Tuto",
+      "Nouveau"
+    ]
   },
   {
     "Lien": "https://dribbble.com/shots/popular",
     "Nom": "Dribbble",
     "Categorie": "Inspiration",
-    "Descripton": "Communauté et portfolio pour designers graphiques."
+    "Descripton": "Communauté et portfolio pour designers graphiques.",
+    "Tags": [
+      "Ressource",
+      "Web"
+    ]
   },
   {
     "Lien": "https://unsplash.com/",
     "Nom": "unsplash",
     "Categorie": "Inspiration",
-    "Descripton": "Superbe banque d'images libres de droits."
+    "Descripton": "Superbe banque d'images libres de droits.",
+    "Tags": [
+      "Nouveau",
+      "Design",
+      "Tendance"
+    ]
   },
   {
     "Lien": "https://www.cosmos.so/",
     "Nom": "Cosmos",
     "Categorie": "Inspiration",
-    "Descripton": "Espace visuel curatif pour les créatifs."
+    "Descripton": "Espace visuel curatif pour les créatifs.",
+    "Tags": [
+      "Ressource",
+      "Outil",
+      "Nouveau"
+    ]
   },
   {
     "Lien": "https://color.adobe.com/fr/create/color-wheel",
     "Nom": "color adobe",
     "Categorie": "Couleurs",
-    "Descripton": "Outil de création de palettes de couleurs."
+    "Descripton": "Outil de création de palettes de couleurs.",
+    "Tags": [
+      "Nouveau",
+      "Tendance"
+    ]
   },
   {
     "Lien": "https://colorhunt.co/",
     "Nom": "colorhunt",
     "Categorie": "Couleurs",
-    "Descripton": "Collection ouverte de palettes de couleurs tendance."
+    "Descripton": "Collection ouverte de palettes de couleurs tendance.",
+    "Tags": [
+      "Tendance",
+      "Design",
+      "Outil"
+    ]
   },
   {
     "Lien": "https://coolors.co/",
     "Nom": "coolors",
     "Categorie": "Couleurs",
-    "Descripton": "Générateur rapide de palettes de couleurs."
+    "Descripton": "Générateur rapide de palettes de couleurs.",
+    "Tags": [
+      "Design",
+      "Officiel",
+      "Nouveau"
+    ]
   },
   {
     "Lien": "https://www.palettedecouleur.net/palette-category/violet/",
     "Nom": "palettedecouleur",
     "Categorie": "Couleurs",
-    "Descripton": "Annuaire et nuanciers classés par teintes."
+    "Descripton": "Annuaire et nuanciers classés par teintes.",
+    "Tags": [
+      "Officiel",
+      "Tendance"
+    ]
   },
   {
     "Lien": "https://www.tpgi.com/color-contrast-checker/",
     "Nom": "Tpgi",
     "Categorie": "Accessibilité",
-    "Descripton": "Outil pour tester le contraste et l'accessibilité web."
+    "Descripton": "Outil pour tester le contraste et l'accessibilité web.",
+    "Tags": [
+      "Inspiration",
+      "Outil"
+    ]
   },
   {
     "Lien": "https://www.flaticon.com/",
     "Nom": "Flaticon",
     "Categorie": "icon",
-    "Descripton": "Énorme base de données d'icônes vectorielles."
+    "Descripton": "Énorme base de données d'icônes vectorielles.",
+    "Tags": [
+      "Inspiration",
+      "Tuto",
+      "Design"
+    ]
   },
   {
     "Lien": "https://icones8.fr/",
     "Nom": "icones8",
     "Categorie": "icon",
-    "Descripton": "Icônes, illustrations et musiques libres."
+    "Descripton": "Icônes, illustrations et musiques libres.",
+    "Tags": [
+      "Premium",
+      "Web",
+      "Tendance"
+    ]
   },
   {
     "Lien": "https://www.dafont.com/fr/",
     "Nom": "dafont",
     "Categorie": "Typographie",
-    "Descripton": "Téléchargement de polices d'écriture."
+    "Descripton": "Téléchargement de polices d'écriture.",
+    "Tags": [
+      "Gratuit",
+      "Nouveau"
+    ]
   },
   {
     "Lien": "https://fonts.google.com/",
     "Nom": "Google",
     "Categorie": "Typographie",
-    "Descripton": "Catalogue de polices open source par Google."
+    "Descripton": "Catalogue de polices open source par Google.",
+    "Tags": [
+      "Design",
+      "Tendance",
+      "Premium"
+    ]
   },
   {
     "Lien": "https://fonts.adobe.com/",
     "Nom": "Adobe",
     "Categorie": "Typographie",
-    "Descripton": "Bibliothèque de polices premium par Adobe."
+    "Descripton": "Bibliothèque de polices premium par Adobe.",
+    "Tags": [
+      "Gratuit",
+      "Officiel"
+    ]
   },
   {
     "Lien": "https://www.awwwards.com/awwwards/collections/free-fonts/",
     "Nom": "Awwwards",
     "Categorie": "Typographie",
-    "Descripton": "Sélection des meilleures polices gratuites."
+    "Descripton": "Sélection des meilleures polices gratuites.",
+    "Tags": [
+      "Ressource",
+      "Tendance"
+    ]
   },
   {
     "Lien": "https://www.pixelsurplus.com/freebies/",
     "Nom": "pixelsurplus www",
     "Categorie": "Typographie",
-    "Descripton": "Ressources de design et Typographie Typographie graphies gratuites."
+    "Descripton": "Ressources de design et Typographie Typographie graphies gratuites.",
+    "Tags": [
+      "Premium",
+      "Inspiration"
+    ]
   },
   {
     "Lien": "https://open-foundry.com/",
     "Nom": "Open foundry",
     "Categorie": "Typographie",
-    "Descripton": "Plateforme pour polices open-source."
+    "Descripton": "Plateforme pour polices open-source.",
+    "Tags": [
+      "Design",
+      "Premium"
+    ]
   },
   {
     "Lien": "http://www.losttype.com/",
     "Nom": "Losttype",
     "Categorie": "Typographie",
-    "Descripton": "Fonderie Typographie Typographie graphique collaborative."
+    "Descripton": "Fonderie Typographie Typographie graphique collaborative.",
+    "Tags": [
+      "Tendance",
+      "Outil"
+    ]
   },
   {
     "Lien": "https://www.fontpair.co/",
     "Nom": "Fontpair",
     "Categorie": "Typographie",
-    "Descripton": "Inspiration pour associer des polices Google."
+    "Descripton": "Inspiration pour associer des polices Google.",
+    "Tags": [
+      "Tendance",
+      "Tuto",
+      "Web"
+    ]
   },
   {
     "Lien": "https://www.fontsquirrel.com/",
     "Nom": "Fontsquirrel",
     "Categorie": "Typographie",
-    "Descripton": "Polices gratuites pour usage commercial."
+    "Descripton": "Polices gratuites pour usage commercial.",
+    "Tags": [
+      "Officiel",
+      "Inspiration",
+      "Design"
+    ]
   },
   {
     "Lien": "https://resourceboy.com/text-effects/",
     "Nom": "ressources boy",
     "Categorie": "Typographie",
-    "Descripton": "Effets de texte PSD gratuits."
+    "Descripton": "Effets de texte PSD gratuits.",
+    "Tags": [
+      "Web",
+      "Officiel",
+      "Tendance"
+    ]
   },
   {
     "Lien": "https://stock.adobe.com/fr/",
     "Nom": "adobe stock",
     "Categorie": "Image_libre_de_droit",
-    "Descripton": "Photos, vecteurs et illustrations professionnelles."
+    "Descripton": "Photos, vecteurs et illustrations professionnelles.",
+    "Tags": [
+      "Web",
+      "Design",
+      "Tuto"
+    ]
   },
   {
     "Lien": "https://www.pexels.com/fr-fr/",
     "Nom": "Pexels",
     "Categorie": "Image_libre_de_droit",
-    "Descripton": "Vidéos et images d'illustration gratuites."
+    "Descripton": "Vidéos et images d'illustration gratuites.",
+    "Tags": [
+      "Officiel",
+      "Tuto",
+      "Nouveau"
+    ]
   },
   {
     "Lien": "https://stock.adobe.com/fr/",
     "Nom": "adobe stock",
     "Categorie": "Mockup",
-    "Descripton": "Mockups et templates premium Adobe."
+    "Descripton": "Mockups et templates premium Adobe.",
+    "Tags": [
+      "Design",
+      "Officiel"
+    ]
   },
   {
     "Lien": "https://www.mockupworld.co/",
     "Nom": "Mockupworld",
     "Categorie": "Mockup",
-    "Descripton": "Le plus grand annuaire de mockups PSD gratuits."
+    "Descripton": "Le plus grand annuaire de mockups PSD gratuits.",
+    "Tags": [
+      "Tendance",
+      "Inspiration"
+    ]
   },
   {
     "Lien": "https://99designs.fr/blog/tendances/tendances-design-graphique/",
     "Nom": "Tendances design graphique",
     "Categorie": "Tandences",
-    "Descripton": "Article sur les tendances design en cours."
+    "Descripton": "Article sur les tendances design en cours.",
+    "Tags": [
+      "Nouveau",
+      "Ressource",
+      "Gratuit"
+    ]
   },
   {
     "Lien": "https://graphiste.com/blog/tendances-webdesign-2024/",
     "Nom": "Tendances webdesign 2024",
     "Categorie": "Tandences",
-    "Descripton": "Les nouvelles tendances de création web."
+    "Descripton": "Les nouvelles tendances de création web.",
+    "Tags": [
+      "Gratuit",
+      "Outil",
+      "Ressource"
+    ]
   },
   {
     "Lien": "https://www.adobe.com/max.html",
     "Nom": "Adobe max",
     "Categorie": "tuto_masterclass_workshop",
-    "Descripton": "La conférence créative d'Adobe (VOD et masterclass)."
+    "Descripton": "La conférence créative d'Adobe (VOD et masterclass).",
+    "Tags": [
+      "Gratuit",
+      "Premium"
+    ]
   },
   {
     "Lien": "https://www.youtube.com/user/AdobeFrance",
     "Nom": "Yt Adobe FR",
     "Categorie": "tuto_masterclass_workshop",
-    "Descripton": "Tutoriels vidéos officiels Adobe."
+    "Descripton": "Tutoriels vidéos officiels Adobe.",
+    "Tags": [
+      "Outil",
+      "Web",
+      "Nouveau"
+    ]
   },
   {
     "Lien": "https://brandingstyleguides.com/",
     "Nom": "branding style guides",
     "Categorie": "Charte_graphique",
-    "Descripton": "Archives mondiales de chartes graphiques."
+    "Descripton": "Archives mondiales de chartes graphiques.",
+    "Tags": [
+      "Tuto",
+      "Design",
+      "Nouveau"
+    ]
   },
   {
     "Lien": "https://chartes-graphiques.com/",
     "Nom": "chartes-graphique.com",
     "Categorie": "Charte_graphique",
-    "Descripton": "Inspiration et analyse de chartes graphiques."
+    "Descripton": "Inspiration et analyse de chartes graphiques.",
+    "Tags": [
+      "Tendance",
+      "Web",
+      "Inspiration"
+    ]
   },
   {
     "Lien": "https://barbarajosa.com/12-exemples-charte-graphique/",
     "Nom": "12 exemples de charte graphique",
     "Categorie": "Charte_graphique",
-    "Descripton": "Sélection commentée de guides de style."
+    "Descripton": "Sélection commentée de guides de style.",
+    "Tags": [
+      "Outil",
+      "Gratuit"
+    ]
   },
   {
     "Lien": "https://combind.ma/blog/guides-de-style",
     "Nom": "guide de style",
     "Categorie": "Charte_graphique",
-    "Descripton": "Ressources sur la construction de guides de style."
+    "Descripton": "Ressources sur la construction de guides de style.",
+    "Tags": [
+      "Nouveau",
+      "Tendance",
+      "Premium"
+    ]
   },
   {
     "Lien": "http://www.maitrecappelli.fr",
     "Nom": "Maitre appelli",
     "Categorie": "Histoire_du_design",
-    "Descripton": "Ressources sur l'histoire du design."
+    "Descripton": "Ressources sur l'histoire du design.",
+    "Tags": [
+      "Ressource",
+      "Gratuit"
+    ]
   },
   {
     "Lien": "https://sites.google.com/view/sacha-photographe/",
     "Nom": "Sacha G. Photographe",
     "Categorie": "Portfolio_etudiant",
-    "Descripton": "Portfolio MMI"
+    "Descripton": "Portfolio MMI",
+    "Tags": [
+      "Officiel",
+      "Web"
+    ]
   },
   {
     "Lien": "https://www.evanmassonphotographie.fr/",
     "Nom": "Evanmasson photographie",
     "Categorie": "Photographe",
-    "Descripton": "Photographie de nature."
+    "Descripton": "Photographie de nature.",
+    "Tags": [
+      "Inspiration",
+      "Premium"
+    ]
   },
   {
     "Lien": "https://tomltpf.com/accueil/",
     "Nom": "Tom TPF",
     "Categorie": "Photographe",
-    "Descripton": "Photographie"
+    "Descripton": "Photographie",
+    "Tags": [
+      "Gratuit",
+      "Premium"
+    ]
   },
   {
     "Lien": "https://barbaraprobst.net/",
     "Nom": "Barbara Probst",
     "Categorie": "Photographe",
-    "Descripton": "Portfolio de l'artiste contemporaine Barbara Probst."
+    "Descripton": "Portfolio de l'artiste contemporaine Barbara Probst.",
+    "Tags": [
+      "Inspiration",
+      "Tuto",
+      "Nouveau"
+    ]
   },
   {
     "Lien": "https://www.perrotin.com/fr/artists/Sophie_Calle/1#news",
     "Nom": "Sophie Calle",
     "Categorie": "Photographe",
-    "Descripton": "Page galerie de l'artiste Sophie Calle."
+    "Descripton": "Page galerie de l'artiste Sophie Calle.",
+    "Tags": [
+      "Design",
+      "Outil",
+      "Nouveau"
+    ]
   },
   {
     "Lien": "https://www.mep-fr.org/les-collections/robert-frank/",
     "Nom": "Robert Frank",
     "Categorie": "Photographe",
-    "Descripton": "Collections MEP sur Robert Frank."
+    "Descripton": "Collections MEP sur Robert Frank.",
+    "Tags": [
+      "Web",
+      "Tendance",
+      "Officiel"
+    ]
   },
   {
     "Lien": "https://www.adrien-favre.com",
     "Nom": "Adrien Favre",
     "Categorie": "Photographe",
-    "Descripton": "Photographie de nature."
+    "Descripton": "Photographie de nature.",
+    "Tags": [
+      "Inspiration",
+      "Ressource",
+      "Web"
+    ]
   },
   {
     "Lien": "https://www.vivianmaier.com",
     "Nom": "Vivian maier",
     "Categorie": "Photographe",
-    "Descripton": "Archives officielles de la photographe de rue."
+    "Descripton": "Archives officielles de la photographe de rue.",
+    "Tags": [
+      "Premium",
+      "Ressource",
+      "Officiel"
+    ]
   },
   {
     "Lien": "https://mandinmaxime.vercel.app/",
     "Nom": "Maxime Mandin",
     "Categorie": "Portfolio_etudiant",
-    "Descripton": "Portfolio MMI"
+    "Descripton": "Portfolio MMI",
+    "Tags": [
+      "Inspiration",
+      "Gratuit"
+    ]
   },
   {
     "Lien": "https://eliotchataigner.fr/",
     "Nom": "Eliot Chataigner",
     "Categorie": "Portfolio_etudiant",
-    "Descripton": "Portfolio MMI"
+    "Descripton": "Portfolio MMI",
+    "Tags": [
+      "Design",
+      "Tendance",
+      "Ressource"
+    ]
   }
 ]
