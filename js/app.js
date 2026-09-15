@@ -182,8 +182,23 @@ function initialiserSite(liens) {
         p.className = "card-description";
         p.textContent = lien.Descripton || "Aucune description fournie.";
 
-        // On assemble le tout : Header -> Description -> Badge
+        // Création du conteneur de Tags
+        const tagsContainer = document.createElement("div");
+        tagsContainer.className = "card-tags";
+        if (lien.Tags && lien.Tags.length > 0) {
+          lien.Tags.forEach((tagText) => {
+            const tag = document.createElement("span");
+            tag.className = "card-tag";
+            tag.textContent = "#" + tagText;
+            tagsContainer.appendChild(tag);
+          });
+        }
+
+        // On assemble le tout : Header -> Tags -> Description -> Badge
         a.appendChild(headerContainer);
+        if (lien.Tags && lien.Tags.length > 0) {
+          a.appendChild(tagsContainer);
+        }
         a.appendChild(p);
         a.appendChild(badge);
 
