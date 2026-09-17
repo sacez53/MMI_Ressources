@@ -10,29 +10,6 @@
     <body>
         <header>
             <div class="header-left">
-                <button
-                    id="sidebar-toggle"
-                    class="sidebar-toggle"
-                    aria-label="Ouvrir les filtres"
-                    aria-expanded="false"
-                    aria-controls="category-drawer"
-                >
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="32"
-                        height="32"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="3"
-                        stroke-linecap="butt"
-                        stroke-linejoin="miter"
-                    >
-                        <line x1="3" y1="12" x2="21" y2="12"></line>
-                        <line x1="3" y1="6" x2="21" y2="6"></line>
-                        <line x1="3" y1="18" x2="21" y2="18"></line>
-                    </svg>
-                </button>
                 <h1>MMI Ressources</h1>
             </div>
             <div class="header-right">
@@ -40,7 +17,6 @@
                     href="about.html"
                     class="settings-btn"
                     aria-label="À propos"
-                    style="margin-right: 15px"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +91,7 @@
                     </button>
                     <div id="active-filter-badge" class="active-filter-badge">
                         <span class="active-filter-label">Catégorie : <strong id="current-filter-name">Toutes les ressources</strong></span>
-                        <button id="reset-filter-btn" class="btn-reset-filter" title="Afficher toutes les ressources" aria-label="Afficher toutes les ressources" style="display: none;">
+                        <button id="reset-filter-btn" class="btn-reset-filter" title="Afficher toutes les ressources" aria-label="Afficher toutes les ressources" hidden>
                             &times;
                         </button>
                     </div>
@@ -154,21 +130,12 @@
             <div class="modal-content">
                 <span class="close-btn" id="close-confirm">&times;</span>
                 <h2>Ouvrir le lien ?</h2>
-                <p style="margin-bottom: 20px; font-weight: 500">
+                <p class="confirm-intro">
                     Êtes-vous sûr de vouloir visiter ce site ?
                 </p>
-                <p
-                    id="confirm-site-name"
-                    style="
-                        font-weight: 800;
-                        font-size: 1.2em;
-                        color: var(--b-blue);
-                        margin-bottom: 30px;
-                        word-wrap: break-word;
-                    "
-                ></p>
+                <p id="confirm-site-name" class="confirm-site-name"></p>
 
-                <div style="display: flex; gap: 15px">
+                <div class="confirm-actions">
                     <button id="btn-cancel-link" class="btn-cancel">
                         Annuler
                     </button>

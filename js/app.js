@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const drawerOverlay = document.getElementById("category-drawer-overlay");
   const closeDrawerBtn = document.getElementById("close-drawer-btn");
   const openDrawerBtn = document.getElementById("open-drawer-btn");
-  const sidebarToggle = document.getElementById("sidebar-toggle");
   const categorySearch = document.getElementById("category-search");
 
   function openDrawer() {
@@ -15,7 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
       drawerOverlay.classList.add("active");
       drawerOverlay.setAttribute("aria-hidden", "false");
     }
-    if (sidebarToggle) sidebarToggle.setAttribute("aria-expanded", "true");
     if (openDrawerBtn) openDrawerBtn.setAttribute("aria-expanded", "true");
     document.body.classList.add("drawer-open");
 
@@ -33,7 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
       drawerOverlay.classList.remove("active");
       drawerOverlay.setAttribute("aria-hidden", "true");
     }
-    if (sidebarToggle) sidebarToggle.setAttribute("aria-expanded", "false");
     if (openDrawerBtn) openDrawerBtn.setAttribute("aria-expanded", "false");
     document.body.classList.remove("drawer-open");
 
@@ -51,15 +48,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   if (openDrawerBtn) openDrawerBtn.addEventListener("click", openDrawer);
-  if (sidebarToggle) {
-    sidebarToggle.addEventListener("click", () => {
-      if (drawer && drawer.classList.contains("open")) {
-        closeDrawer();
-      } else {
-        openDrawer();
-      }
-    });
-  }
   if (closeDrawerBtn) closeDrawerBtn.addEventListener("click", closeDrawer);
   if (drawerOverlay) drawerOverlay.addEventListener("click", closeDrawer);
 
@@ -379,7 +367,7 @@ function initialiserSite(liens, closeDrawerCallback) {
     }
 
     if (resetFilterBtn) {
-      resetFilterBtn.style.display = cat === "tous" ? "none" : "inline-flex";
+      resetFilterBtn.hidden = cat === "tous";
     }
 
     const totalAffiche = afficherCartes(cat);
